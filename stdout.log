@@ -1,0 +1,34 @@
+[MainThread] UM.Qt.QtApplication.__init__ [83]: Adding QT5 plugin path: C:\Program Files\Ultimaker Cura 4.12.1\PyQt5\plugins
+[MainThread] UM.Qt.QtApplication.__init__ [93]: Adding QT5 plugin path: C:\Program Files\Ultimaker Cura 4.12.1\PyQt5\plugins
+[MainThread] UM.Application.initialize [160]: Initializing Ultimaker Cura
+[MainThread] UM.Application.initialize [161]: App Version 4.12.1
+[MainThread] UM.Application.initialize [162]: Api Version 7.8.0
+[MainThread] UM.Application.initialize [163]: Build type None
+[MainThread] UM.Logger.warning [134]: Plugin location C:\Program Files\Ultimaker Cura 4.12.1\share\uranium\plugins must be a folder.
+[MainThread] UM.Logger.warning [134]: Plugin location C:\Program Files\Ultimaker Cura 4.12.1\share\cura\plugins must be a folder.
+[MainThread] UM.Logger.warning [134]: Plugin location C:\Program Files\lib\uranium must be a folder.
+[MainThread] UM.Logger.warning [134]: Plugin location C:\Program Files\lib64\uranium must be a folder.
+[MainThread] UM.Logger.warning [134]: Plugin location C:\Program Files\lib32\uranium must be a folder.
+[MainThread] UM.Logger.warning [134]: Plugin location C:\Program Files\Resources\uranium\plugins must be a folder.
+[MainThread] UM.Logger.warning [134]: Plugin location C:\Program Files\Resources\cura\plugins must be a folder.
+[MainThread] UM.Resources.__initializeStoragePaths [447]: Initializing storage paths
+[MainThread] UM.Resources.__initializeStoragePaths [457]: Config storage path is C:\Users\Miguel Rodrigues\AppData\Roaming\cura\4.12
+[MainThread] UM.Resources.__initializeStoragePaths [465]: Data storage path is C:\Users\Miguel Rodrigues\AppData\Roaming\cura\4.12
+[MainThread] UM.Resources.__initializeStoragePaths [477]: Cache storage path is C:\Users\Miguel Rodrigues\AppData\Local\cura\4.12\cache
+[MainThread] UM.PackageManager.__init__ [55]: Found bundled packages JSON file: C:\Program Files\Ultimaker Cura 4.12.1\resources\bundled_packages\cura.json
+[MainThread] UM.PackageManager.__init__ [55]: Found bundled packages JSON file: C:\Program Files\Ultimaker Cura 4.12.1\resources\bundled_packages\uranium.json
+[MainThread] UM.View.GL.OpenGLContext.detectBestOpenGLVersion [123]: Trying OpenGL context 4.1...
+[MainThread] UM.View.GL.OpenGLContext.detectBestOpenGLVersion [186]: Trying OpenGL context 2.0...
+[MainThread] UM.View.GL.OpenGLContext.detectBestOpenGLVersion [193]: We got at least OpenGL context 2.0: 3.3 Compatibility profile
+[MainThread] UM.Qt.QtApplication.initialize [174]: Detected most suitable OpenGL context version: 2.0 No profile
+[MainThread] UM.Qt.QtApplication.initialize [181]: Initializing job queue ...
+[MainThread] UM.Qt.QtApplication.initialize [185]: Initializing version upgrade manager ...
+[MainThread] UM.PackageManager._loadManagementData [170]: Loaded bundled packages data from C:\Program Files\Ultimaker Cura 4.12.1\resources\bundled_packages\cura.json
+[MainThread] UM.PackageManager._loadManagementData [170]: Loaded bundled packages data from C:\Program Files\Ultimaker Cura 4.12.1\resources\bundled_packages\uranium.json
+[MainThread] UM.PackageManager._loadManagementData [197]: Loaded user packages management file from C:\Users\Miguel Rodrigues\AppData\Roaming\cura\4.12\packages.json
+[MainThread] UM.PackageManager._saveManagementData [270]: Package management file C:\Users\Miguel Rodrigues\AppData\Roaming\cura\4.12\packages.json was saved
+[MainThread] UM.PluginRegistry.initializeBeforePluginsAreLoaded [117]: Loading plugin configuration file 'C:\Users\Miguel Rodrigues\AppData\Roaming\cura\4.12\plugins.json'
+[MainThread] UM.Logger.warning [134]: Plugin location C:\Program Files\lib\cura must be a folder.
+[MainThread] UM.Logger.info [128]: Loaded plugin 3MFReader
+[MainThread] UM.Logger.info [128]: Loaded plugin 3MFWriter
+[MainThread] UM.Logger.info [128]: Loaded plugin AMFReader

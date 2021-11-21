@@ -1,0 +1,52 @@
+{
+    "dismissed": [],
+    "installed": {
+        "CalibrationShapes": {
+            "filename": "C:\\Users\\Miguel Rodrigues\\AppData\\Local\\cura\\4.11\\cache\\cura_packages\\CalibrationShapes.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "5axes",
+                    "display_name": "5axes",
+                    "email": "cuq@free.fr",
+                    "website": "https://github.com/5axes"
+                },
+                "description": "This plugin adds a menu to create some basic shapes to the scene (cube, cylinder, tube) and standard test part. \n\nYou can add standard test / calibration part :\n- Calibration Cube XYZ\n- PLA TempTower 220 - 180\u00b0C\n- PLA TempTower 220 - 190\u00b0C\n- PLA+ TempTower 230 - 200\u00b0C\n- ABS TempTower 250 - 210\u00b0C\n- PETG TempTower 260 - 230\u00b0C\n- Junction Deviation Tower\n- Retract Tower\n- Retract Test part\n- Bridge Spiral Test\n- Thin Wall Test\n- Overhang Test\n- Flow Test\n- Tolerance Test\n- Linear Pressure Advance Tower\n- MultiCube Test\n- Bed Level Calibration Test\n\nAnd Multi-Extruder part :\n- Extruder Offset Calibration\n- Calibration Cube bi-color\n- Cube bi-color\n\n+ 3 postprocessing scripts",
+                "display_name": "Calibration Shapes",
+                "is_active": false,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "CalibrationShapes",
+                "package_type": "plugin",
+                "package_version": "1.3.3",
+                "sdk_version": 7,
+                "sdk_version_semver": "7.5.0",
+                "website": "https://github.com/5axes/Calibration-Shapes"
+            }
+        },
+        "CuraBlenderPlugin": {
+            "filename": "C:\\Users\\Miguel Rodrigues\\AppData\\Local\\cura\\4.11\\cache\\cura_packages\\CuraBlenderPlugin.curapackage",
+            "package_info": {
+                "author": {
+                    "author_id": "thopiekar",
+                    "display_name": "Thomas Karl Pietrowski",
+                    "email": "thopiekar@gmail.com",
+                    "website": "https://thopiekar.eu"
+                },
+                "description": "Allows opening Blender files directly in Ultimaker Cura.",
+                "display_name": "Blender integration",
+                "is_active": false,
+                "is_bundled": false,
+                "is_installed": true,
+                "package_id": "CuraBlenderPlugin",
+                "package_type": "plugin",
+                "package_version": "0.3.3",
+                "sdk_version": 7,
+                "sdk_version_semver": "7.0.0",
+                "website": "https://thopiekar.eu/cura/cad/blender/"
+            }
+        }
+    },
+    "to_install": {},
+    "to_remove": [],
+    "version": 1
+}

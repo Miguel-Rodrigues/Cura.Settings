@@ -1,0 +1,230 @@
+trimesh\util.py:2064: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+trimesh\voxel\runlength.py:205: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+2021-11-21 21:14:24,107 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin ConsoleLogger
+2021-11-21 21:14:24,304 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin CuraDrive
+2021-11-21 21:14:24,442 - INFO - [MainThread] CuraEngineBackend.CuraEngineBackend.__init__ [96]: Found CuraEngine at: C:\Program Files\Ultimaker Cura 4.12.1\CuraEngine.exe
+2021-11-21 21:14:24,454 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin CuraEngineBackend
+2021-11-21 21:14:24,473 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [188]: Socket state changed to Listening
+2021-11-21 21:14:24,547 - INFO - [MainThread] UM.Backend.Backend.startEngine [90]: Started engine process: C:\Program Files\Ultimaker Cura 4.12.1\CuraEngine.exe
+2021-11-21 21:14:24,554 - DEBUG - [MainThread] UM.Backend.Backend._backendLog [110]: [Backend] Calling engine with: ['C:\\Program Files\\Ultimaker Cura 4.12.1\\CuraEngine.exe', 'connect', '127.0.0.1:49674', '']
+2021-11-21 21:14:24,620 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin CuraProfileReader
+2021-11-21 21:14:24,685 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin CuraProfileWriter
+2021-11-21 21:14:24,878 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
+2021-11-21 21:14:24,886 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] Cura_SteamEngine version 4.12.1
+2021-11-21 21:14:24,891 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] Copyright (C) 2021 Ultimaker
+2021-11-21 21:14:24,897 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
+2021-11-21 21:14:24,903 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] This program is free software: you can redistribute it and/or modify
+2021-11-21 21:14:24,909 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] it under the terms of the GNU Affero General Public License as published by
+2021-11-21 21:14:24,917 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] the Free Software Foundation, either version 3 of the License, or
+2021-11-21 21:14:24,924 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] (at your option) any later version.
+2021-11-21 21:14:24,930 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
+2021-11-21 21:14:24,936 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] This program is distributed in the hope that it will be useful,
+2021-11-21 21:14:24,947 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] but WITHOUT ANY WARRANTY; without even the implied warranty of
+2021-11-21 21:14:24,954 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+2021-11-21 21:14:24,959 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] GNU Affero General Public License for more details.
+2021-11-21 21:14:24,966 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
+2021-11-21 21:14:24,974 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] You should have received a copy of the GNU Affero General Public License
+2021-11-21 21:14:24,980 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] along with this program.  If not, see <http://www.gnu.org/licenses/>.
+2021-11-21 21:14:25,200 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin DigitalLibrary
+2021-11-21 21:14:25,206 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [192]: Socket state changed to Connected
+2021-11-21 21:14:25,211 - DEBUG - [MainThread] UM.Backend.Backend._onSocketStateChanged [181]: Backend connected on port 49674
+2021-11-21 21:14:25,274 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin OBJReader
+2021-11-21 21:14:25,336 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin OBJWriter
+2021-11-21 21:14:25,405 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin STLReader
+2021-11-21 21:14:25,465 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin STLWriter
+2021-11-21 21:14:25,525 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin FileLogger
+2021-11-21 21:14:25,639 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin FirmwareUpdateChecker
+2021-11-21 21:14:25,703 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin FirmwareUpdater
+2021-11-21 21:14:25,765 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin GCodeGzReader
+2021-11-21 21:14:25,826 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin GCodeGzWriter
+2021-11-21 21:14:25,887 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin GCodeProfileReader
+2021-11-21 21:14:26,002 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin GCodeReader
+2021-11-21 21:14:26,051 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin GCodeWriter
+2021-11-21 21:14:26,132 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin ImageReader
+2021-11-21 21:14:26,192 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin LegacyProfileReader
+2021-11-21 21:14:26,259 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin LocalContainerProvider
+2021-11-21 21:14:26,339 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin LocalFileOutputDevice
+2021-11-21 21:14:26,401 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin MachineSettingsAction
+2021-11-21 21:14:26,463 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin ModelChecker
+2021-11-21 21:14:26,525 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin MonitorStage
+2021-11-21 21:14:26,605 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin PerObjectSettingsTool
+2021-11-21 21:14:26,668 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin PostProcessingPlugin
+2021-11-21 21:14:26,725 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin PrepareStage
+2021-11-21 21:14:26,786 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin PreviewStage
+2021-11-21 21:14:26,860 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin RemovableDriveOutputDevice
+2021-11-21 21:14:26,916 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SentryLogger
+2021-11-21 21:14:27,053 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SimulationView
+2021-11-21 21:14:27,119 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SliceInfoPlugin
+2021-11-21 21:14:27,187 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SolidView
+2021-11-21 21:14:27,338 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SupportEraser
+2021-11-21 21:14:27,634 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin Toolbox
+2021-11-21 21:14:27,695 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin CameraTool
+2021-11-21 21:14:27,775 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin MirrorTool
+2021-11-21 21:14:27,862 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin RotateTool
+2021-11-21 21:14:27,945 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin ScaleTool
+2021-11-21 21:14:28,004 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SelectionTool
+2021-11-21 21:14:28,083 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin TranslateTool
+2021-11-21 21:14:28,142 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin TrimeshReader
+2021-11-21 21:14:28,223 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin UFPReader
+2021-11-21 21:14:28,289 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin UFPWriter
+2021-11-21 21:14:28,367 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin UltimakerMachineActions
+C:\Program Files\Ultimaker Cura 4.12.1\plugins\UM3NetworkPrinting\src\ExportFileJob.py:31: DeprecationWarning: invalid escape sequence \w
+  job_name = re.sub("[^\w\-. ()]", "-", job_name)
+2021-11-21 21:14:29,259 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin UM3NetworkPrinting
+2021-11-21 21:14:29,349 - INFO - [MainThread] UpdateChecker.UpdateChecker.checkNewVersion [68]: Checking for new version
+2021-11-21 21:14:29,359 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin UpdateChecker
+C:\Program Files\Ultimaker Cura 4.12.1\plugins\USBPrinting\USBPrinterOutputDevice.py:280: DeprecationWarning: invalid escape sequence \d
+  if re.search(b"[B|T\d*]: ?\d+\.?\d*", line):  # Temperature message. 'T:' for extruder and 'B:' for bed
+2021-11-21 21:14:29,709 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin USBPrinting
+2021-11-21 21:14:29,830 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade21to22
+2021-11-21 21:14:29,894 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade22to24
+2021-11-21 21:14:29,960 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade25to26
+2021-11-21 21:14:30,021 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade26to27
+2021-11-21 21:14:30,085 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade27to30
+2021-11-21 21:14:30,146 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade30to31
+2021-11-21 21:14:30,210 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade32to33
+2021-11-21 21:14:30,269 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade33to34
+2021-11-21 21:14:30,327 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade34to35
+2021-11-21 21:14:30,387 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade35to40
+2021-11-21 21:14:30,453 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade40to41
+2021-11-21 21:14:30,518 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade411to412
+2021-11-21 21:14:30,582 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade41to42
+2021-11-21 21:14:30,643 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade42to43
+2021-11-21 21:14:30,704 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade43to44
+2021-11-21 21:14:30,771 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade44to45
+2021-11-21 21:14:30,835 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade45to46
+2021-11-21 21:14:30,899 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade460to462
+2021-11-21 21:14:30,962 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade462to47
+2021-11-21 21:14:31,025 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade47to48
+2021-11-21 21:14:31,086 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade48to49
+2021-11-21 21:14:31,149 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade49to410
+2021-11-21 21:14:31,208 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SimpleView
+2021-11-21 21:14:31,290 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin X3DReader
+2021-11-21 21:14:31,403 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin XmlMaterialProfile
+2021-11-21 21:14:31,463 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin XRayView
+2021-11-21 21:14:31,528 - DEBUG - [MainThread] CalibrationShapes.CalibrationShapes.__init__ [106]: Info CuraVersion --> 4.12.1
+2021-11-21 21:14:31,538 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin CalibrationShapes
+2021-11-21 21:14:31,663 - INFO - [MainThread] CuraBlenderPlugin.CadIntegrationUtils.Extras.SystemUtils.registerThirdPartyModules [20]: Adding 3rd-party modules from: D:\Projetos\Internal\3dPrinters.Firmware\Cura\4.12\plugins\CuraBlenderPlugin\CuraBlenderPlugin\CadIntegrationUtils\3rd-party
+2021-11-21 21:14:31,664 - INFO - [MainThread] CuraBlenderPlugin.CadIntegrationUtils.Extras.SystemUtils.registerThirdPartyModules [28]: Platform is: ['cpython', '3.8', 'windows', 'amd64']
+2021-11-21 21:14:31,691 - INFO - [MainThread] CuraBlenderPlugin.CadIntegrationUtils.CommonCLIReader._findPathsForExtensionClassic [146]: File extension not found in registry: ".blend"
+2021-11-21 21:14:31,692 - DEBUG - [MainThread] CuraBlenderPlugin.CadIntegrationUtils.CommonCLIReader.findPathsForExtensionRootClassic [101]: The result is: "[]"
+2021-11-21 21:14:31,693 - INFO - [MainThread] CuraBlenderPlugin.CadIntegrationUtils.CommonCLIReader._findPathsForExtensionClassic [146]: File extension not found in registry: ".blend"
+2021-11-21 21:14:31,694 - DEBUG - [MainThread] CuraBlenderPlugin.CadIntegrationUtils.CommonCLIReader.findPathsForExtensionUserClassic [112]: The result is: "[]"
+2021-11-21 21:14:31,701 - ERROR - [MainThread] UM.Logger.logException [112]: Exception: Exception, while looking for AppID: ".blend"
+2021-11-21 21:14:31,709 - ERROR - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-11-21 21:14:31,716 - ERROR - [MainThread] UM.Logger.logException [116]:   File "C:\Users\Miguel Rodrigues\AppData\Roaming\cura\4.12\plugins\CuraBlenderPlugin\CuraBlenderPlugin\CadIntegrationUtils\CommonCLIReader.py", line 63, in findPathsForExtensionUserModern
+2021-11-21 21:14:31,723 - ERROR - [MainThread] UM.Logger.logException [116]:     user_choice = winreg.OpenKey(key_base,
+2021-11-21 21:14:31,729 - ERROR - [MainThread] UM.Logger.logException [116]: FileNotFoundError: [WinError 2] O sistema não conseguiu localizar o ficheiro especificado
+2021-11-21 21:14:31,730 - DEBUG - [MainThread] CuraBlenderPlugin.CadIntegrationUtils.CommonCLIReader.findPathsForAllExtensions [275]: The result is: []
+2021-11-21 21:14:31,740 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin CuraBlenderPlugin
+2021-11-21 21:14:31,754 - DEBUG - [MainThread] UM.PluginRegistry.loadPlugins [396]: Loading all plugins took 10.231010675430298 seconds
+2021-11-21 21:14:31,788 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [163]: Looking for old configuration files to upgrade.
+2021-11-21 21:14:32,002 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [177]: Checking and performing updates took 0.21497583389282227
+2021-11-21 21:14:32,170 - INFO - [MainThread] UM.Logger.info [128]: Completed loading preferences.
+2021-11-21 21:14:32,233 - INFO - [MainThread] UM.Logger.info [128]: Created system tray icon.
+2021-11-21 21:14:47,615 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.loadAllMetadata [522]: Loading metadata into container registry took 15.351000785827637 seconds
+2021-11-21 21:14:47,652 - DEBUG - [MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [142]: Select build plate: 0
+2021-11-21 21:14:47,660 - INFO - [MainThread] cura.CuraApplication.run [803]: Initializing machine error checker
+2021-11-21 21:14:48,459 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [74]: Default machine actions added for machine definition [anet3d_a8_plus]
+2021-11-21 21:14:48,960 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [300]: The definition cache for definition fdmprinter failed to pickle.
+2021-11-21 21:14:49,072 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [202]: Extruder[anet3d_extruder_0 #2] added to [Anet A8 PLUS] at position [0]
+2021-11-21 21:14:49,074 - INFO - [MainThread] FirmwareUpdateChecker.FirmwareUpdateChecker.checkFirmwareVersion [79]: No machine with name Anet A8 Plus in list of firmware to check.
+2021-11-21 21:14:50,018 - DEBUG - [MainThread] cura.Machines.ContainerTree.__getitem__ [120]: Adding container tree for anet3d_a8_plus took 0.9310157299041748 seconds.
+C:\Program Files\Ultimaker Cura 4.12.1\plugins\PostProcessingPlugin\Script.py:125: DeprecationWarning: invalid escape sequence \.
+  m = re.search('^-?[0-9]+\.?[0-9]*', sub_part)
+2021-11-21 21:14:50,070 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: ChangeAtZ
+2021-11-21 21:14:50,089 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: ColorMix
+2021-11-21 21:14:50,095 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: CreateThumbnail
+2021-11-21 21:14:50,113 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: DisplayFilenameAndLayerOnLCD
+2021-11-21 21:14:50,130 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: DisplayProgressOnLCD
+2021-11-21 21:14:50,147 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: FilamentChange
+2021-11-21 21:14:50,163 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: InsertAtLayerChange
+2021-11-21 21:14:50,185 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: PauseAtHeight
+2021-11-21 21:14:50,202 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: RetractContinue
+2021-11-21 21:14:50,218 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: SearchAndReplace
+2021-11-21 21:14:50,242 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: Stretch
+2021-11-21 21:14:50,259 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: TimeLapse
+2021-11-21 21:14:50,274 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: UsePreviousProbeMeasurements
+2021-11-21 21:14:50,276 - WARNING - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadAllScripts [155]: Unable to create a folder for scripts: C:\Program Files\Ultimaker Cura 4.12.1\resources\scripts
+2021-11-21 21:14:50,290 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: DisplayPrintInfosOnLCD
+2021-11-21 21:14:50,306 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: GCodeDocumentation
+2021-11-21 21:14:50,310 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: RetractTower
+2021-11-21 21:14:50,322 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: SpeedTower
+2021-11-21 21:14:50,335 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: TempFanTower
+2021-11-21 21:14:50,371 - INFO - [MainThread] cura.CuraApplication.run [808]: Initializing machine manager
+2021-11-21 21:14:50,382 - INFO - [MainThread] cura.CuraApplication.run [813]: Initializing container manager
+2021-11-21 21:14:50,451 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.loadAuthDataFromPreferences [239]: Attempting to load the auth data from preferences.
+2021-11-21 21:14:50,460 - WARNING - [MainThread] UM.OutputDevice.OutputDeviceManager.removeOutputDevice [235]: Could not find output device with id digital_factory to remove
+2021-11-21 21:14:50,588 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [154]: New error check scheduled.
+2021-11-21 21:14:50,622 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [252]: Changing perspective mode to orthographic.
+2021-11-21 21:14:50,952 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [182]: Loading theme file: C:\Program Files\Ultimaker Cura 4.12.1\resources\themes\cura-dark\theme.json
+2021-11-21 21:14:50,962 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [182]: Loading theme file: C:\Program Files\Ultimaker Cura 4.12.1\resources\themes\cura-light\theme.json
+2021-11-21 21:14:51,627 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [287]: Loaded theme C:\Program Files\Ultimaker Cura 4.12.1\resources\themes\cura-light
+2021-11-21 21:14:51,843 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [287]: Loaded theme C:\Program Files\Ultimaker Cura 4.12.1\resources\themes\cura-dark
+2021-11-21 21:14:52,924 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [342]: Creating post processing plugin view.
+2021-11-21 21:14:53,622 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [352]: Post processing view created.
+2021-11-21 21:14:53,980 - WARNING - [MainThread] UM.Qt.Bindings.Theme.getIcon [144]: The icon 'search' is deprecated. Please use icon 'Magnifier' instead.
+C:\build\Cura\4.12-exe\build\inst\lib\python3.8\site-packages\UM\Qt\QtApplication.py:316: DeprecationWarning: The icon 'search' is deprecated. Please use icon 'Magnifier' instead.
+2021-11-21 21:14:54,134 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [100]: There was no auth data or access token
+2021-11-21 21:14:54,408 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [421]: file:///C:/Program Files/Ultimaker Cura 4.12.1/resources/qml/Settings/SettingView.qml:140:5: QML SettingVisibilityPresetsMenu: Binding loop detected for property "width"
+2021-11-21 21:14:54,806 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [100]: There was no auth data or access token
+2021-11-21 21:14:54,814 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [100]: There was no auth data or access token
+2021-11-21 21:14:55,131 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2021-11-21 21:14:55,460 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PrepareStage
+2021-11-21 21:14:55,637 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2021-11-21 21:14:56,018 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SolidView
+2021-11-21 21:14:56,025 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [118]: Creating model checker view.
+2021-11-21 21:14:56,051 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [127]: Model checker view created.
+2021-11-21 21:14:56,052 - DEBUG - [MainThread] SliceInfoPlugin.SliceInfo._createDialog [76]: Creating dialog [MoreInfoWindow.qml]
+2021-11-21 21:14:56,189 - DEBUG - [MainThread] UM.Logger.debug [122]: Requesting updates metadata from server.
+2021-11-21 21:14:56,197 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.getAccessToken [133]: No auth data to retrieve the access_token from
+2021-11-21 21:14:56,205 - DEBUG - [MainThread] UM.Logger.debug [122]: User is not logged in for Cloud API request to https://api.ultimaker.com/cura-packages/v1/cura/v7.8.0/packages/package-updates?installed_packages=CameraTool:1.0.1&installed_packages=GenericCPE:1.4.0&installed_packages=PolyWoodPLA:1.0.1&installed_packages=GenericTPU:1.4.0&installed_packages=UltimakerTPU:1.4.0&installed_packages=VertexDeltaTPU:1.4.0&installed_packages=GCodeReader:1.0.1&installed_packages=UltimakerCPEP:1.4.0&installed_packages=VersionUpgrade42to43:1.0.0&installed_packages=GenericGFFPA:1.4.0&installed_packages=CuraProfileWriter:1.0.1&installed_packages=UltimakerPC:1.4.0&installed_packages=TranslateTool:1.0.1&installed_packages=GenericNylon:1.4.0&installed_packages=CuraBlenderPlugin:0.3.3&installed_packages=GenericBAM:1.4.0&installed_packages=GCodeProfileReader:1.0.1&installed_packages=OctofiberPLA:1.0.1&installed_packages=UltimakerCPE:1.4.0&installed_packages=UltimakerBAM:1.4.0&installed_packages=SentryLogger:1.0.0&installed_packages=UpdateChecker:1.0.1&installed_packages=GenericGFFCPE:1.4.0&installed_packages=DagomaChromatikPLA:1.0.1&installed_packages=VertexDeltaPLA:1.4.0&installed_packages=GenericCFFCPE:1.4.0&installed_packages=IMADE3DJellyBOXPLA:1.0.1&installed_packages=VersionUpgrade40to41:1.0.1&installed_packages=FABtotumTPU:1.4.0&installed_packages=CuraDrive:1.2.0&installed_packages=VersionUpgrade35to40:1.0.0&installed_packages=UltimakerPP:1.4.0&installed_packages=MirrorTool:1.0.1&installed_packages=GenericPLA:1.4.0&installed_packages=GenericABS:1.4.0&installed_packages=VersionUpgrade21to22:1.0.1&installed_packages=PrepareStage:1.0.1&installed_packages=PolyMaxPLA:1.0.1&installed_packages=UltimakerABS:1.4.0&installed_packages=UFPWriter:1.0.1&installed_packages=CuraProfileReader:1.0.1&installed_packages=GCodeGzReader:1.0.1&installed_packages=VersionUpgrade25to26:1.0.1&installed_packages=GCodeGzWriter:1.0.1&installed_packages=IMADE3DJellyBOXPETG:1.0.1&installed_packages=VersionUpgrade460to462:1.0.0&installed_packages=PreviewStage:1.0.1&installed_packages=VersionUpgrade34to35:1.0.1&installed_packages=VertexDeltaPET:1.4.0&installed_packages=3MFReader:1.0.1&installed_packages=SimpleView:1.0.1&installed_packages=VersionUpgrade44to45:1.0.0&installed_packages=UFPReader:1.0.0&installed_packages=UltimakerPVA:1.4.0&installed_packages=ModelChecker:1.0.1&installed_packages=MonitorStage:1.0.1&installed_packages=RotateTool:1.0.1&installed_packages=OBJWriter:1.0.1&installed_packages=VersionUpgrade47to48:1.0.0&installed_packages=Filo3DPLA:1.0.1&installed_packages=SimulationView:1.0.1&installed_packages=FiberlogyHDPLA:1.0.1&installed_packages=ScaleTool:1.0.1&installed_packages=SupportEraser:1.0.1&installed_packages=GenericToughPLA:1.4.0&installed_packages=GenericHIPS:1.4.0&installed_packages=LocalContainerProvider:1.0.1&installed_packages=GCodeWriter:1.0.1&installed_packages=ImageReader:1.0.1&installed_packages=GenericPP:1.4.0&installed_packages=CalibrationShapes:1.3.3&installed_packages=FirmwareUpdater:1.0.1&installed_packages=GenericCPEPlus:1.4.0&installed_packages=AMFReader:1.0.0&installed_packages=SelectionTool:1.0.1&installed_packages=VersionUpgrade45to46:1.0.0&installed_packages=PolyFlexPLA:1.0.1&installed_packages=TrimeshReader:1.0.0&installed_packages=RemovableDriveOutputDevice:1.0.1&installed_packages=MachineSettingsAction:1.0.1&installed_packages=GenericCFFPA:1.4.0&installed_packages=FileLogger:1.0.1&installed_packages=UltimakerPLA:1.4.0&installed_packages=UM3NetworkPrinting:1.0.1&installed_packages=VersionUpgrade49to410:1.0.0&installed_packages=3MFWriter:1.0.1&installed_packages=GenericPVA:1.4.0&installed_packages=STLReader:1.0.1&installed_packages=FABtotumNylon:1.4.0&installed_packages=VersionUpgrade27to30:1.0.1&installed_packages=FABtotumABS:1.4.0&installed_packages=GenericPETG:1.4.0&installed_packages=PolyPlusPLA:1.0.1&installed_packages=SliceInfoPlugin:1.0.1&installed_packages=VersionUpgrade43to44:1.0.0&installed_packages=PerObjectSettingsTool:1.0.1&installed_packages=USBPrinting:1.0.2&installed_packages=GenericPC:1.4.0&installed_packages=VersionUpgrade30to31:1.0.1&installed_packages=VersionUpgrade32to33:1.0.1&installed_packages=LocalFileOutputDevice:1.0.1&installed_packages=VersionUpgrade462to47:1.0.0&installed_packages=VersionUpgrade41to42:1.0.0&installed_packages=XmlMaterialProfile:1.0.1&installed_packages=STLWriter:1.0.1&installed_packages=UltimakerMachineActions:1.0.1&installed_packages=OBJReader:1.0.1&installed_packages=FirmwareUpdateChecker:1.0.1&installed_packages=X3DReader:1.0.1&installed_packages=VersionUpgrade22to24:1.0.1&installed_packages=VersionUpgrade48to49:1.0.0&installed_packages=VersionUpgrade411to412:1.0.0&installed_packages=DigitalLibrary:1.1.0&installed_packages=VertexDeltaABS:1.4.0&installed_packages=CuraEngineBackend:1.0.1&installed_packages=VersionUpgrade26to27:1.0.1&installed_packages=FABtotumPLA:1.4.0&installed_packages=SolidView:1.0.1&installed_packages=XRayView:1.0.1&installed_packages=UltimakerNylon:1.4.0&installed_packages=VersionUpgrade33to34:1.0.1&installed_packages=PostProcessingPlugin:2.2.1&installed_packages=UltimakerTPLA:1.4.0&installed_packages=ConsoleLogger:1.0.1&installed_packages=Toolbox:1.0.1&installed_packages=LegacyProfileReader:1.0.1
+2021-11-21 21:14:56,228 - DEBUG - [MainThread] cura.CuraApplication.run [857]: Booting Cura took 37.006996154785156 seconds
+2021-11-21 21:14:56,231 - DEBUG - [JobQueueWorker [1]] cura.Machines.ContainerTree.run [174]: Started background loading of MachineNodes
+2021-11-21 21:14:56,337 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2021-11-21 21:14:56,552 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [58]: Updating QualityProfilesDropDownMenuModel.
+2021-11-21 21:14:56,745 - DEBUG - [JobQueueWorker [1]] cura.Machines.ContainerTree.run [185]: All MachineNode loading completed
+2021-11-21 21:14:56,906 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [58]: Updating QualityProfilesDropDownMenuModel.
+2021-11-21 21:14:56,920 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2021-11-21 21:14:57,646 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [210]: Support for Vertex Array Objects: True
+2021-11-21 21:14:57,695 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [112]: Initialized OpenGL subsystems.
+2021-11-21 21:14:57,703 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [113]: OpenGL Version:  3.3.0
+2021-11-21 21:14:57,710 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [114]: OpenGL Vendor:   NVIDIA Corporation
+2021-11-21 21:14:57,718 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [115]: OpenGL Renderer: GeForce GT 330M/PCIe/SSE2
+2021-11-21 21:14:57,726 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [116]: GLSL Version:    3.0.0
+2021-11-21 21:14:57,736 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [60]: Loading [C:\Program Files\Ultimaker Cura 4.12.1\resources\shaders\default.shader]...
+2021-11-21 21:14:57,761 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [60]: Loading [C:\Program Files\Ultimaker Cura 4.12.1\resources\shaders\selection.shader]...
+2021-11-21 21:14:57,782 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [60]: Loading [C:\Program Files\Ultimaker Cura 4.12.1\resources\shaders\select_face.shader]...
+2021-11-21 21:14:57,803 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [60]: Loading [C:\Program Files\Ultimaker Cura 4.12.1\resources\shaders\default.shader]...
+2021-11-21 21:14:57,814 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [60]: Loading [C:\Program Files\Ultimaker Cura 4.12.1\resources\shaders\composite.shader]...
+2021-11-21 21:14:57,840 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [60]: Loading [C:\Program Files\Ultimaker Cura 4.12.1\resources\shaders\overhang.shader]...
+2021-11-21 21:14:57,856 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [60]: Loading [C:\Program Files\Ultimaker Cura 4.12.1\resources\shaders\striped.shader]...
+2021-11-21 21:14:57,871 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [60]: Loading [C:\Program Files\Ultimaker Cura 4.12.1\resources\shaders\transparent_object.shader]...
+2021-11-21 21:14:57,883 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [60]: Loading [C:\Program Files\Ultimaker Cura 4.12.1\resources\shaders\striped.shader]...
+2021-11-21 21:14:57,895 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [60]: Loading [C:\Program Files\Ultimaker Cura 4.12.1\resources\shaders\xray.shader]...
+2021-11-21 21:14:57,918 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [60]: Loading [C:\Program Files\Ultimaker Cura 4.12.1\resources\shaders\xray_composite.shader]...
+2021-11-21 21:14:57,943 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [60]: Loading [C:\Program Files\Ultimaker Cura 4.12.1\resources\shaders\default.shader]...
+2021-11-21 21:14:57,956 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [60]: Loading [C:\Program Files\Ultimaker Cura 4.12.1\resources\shaders\grid.shader]...
+2021-11-21 21:14:57,977 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [60]: Loading [C:\Program Files\Ultimaker Cura 4.12.1\resources\shaders\platform.shader]...
+2021-11-21 21:14:58,031 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [60]: Loading [C:\Program Files\Ultimaker Cura 4.12.1\resources\shaders\xray.shader]...
+2021-11-21 21:15:01,163 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [213]: Error check finished, result = False, time = 10.6s
+2021-11-21 21:15:04,432 - DEBUG - [MainThread] cura.TaskManagement.OnExitCallbackManager.triggerNextCallback [51]: No more on-app-exit callbacks to process. Tell the app to exit.
+2021-11-21 21:15:04,440 - INFO - [MainThread] cura.CuraApplication.closeApplication [611]: Close application
+2021-11-21 21:15:04,448 - INFO - [MainThread] UM.Logger.info [128]: Initializing Active Machine...
+2021-11-21 21:15:04,505 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2021-11-21 21:15:04,514 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2021-11-21 21:15:04,536 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2021-11-21 21:15:04,545 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2021-11-21 21:15:04,959 - DEBUG - [MainThread] UM.Qt.QtApplication.windowClosed [485]: Shutting down cura
+2021-11-21 21:15:05,170 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [354]: Attempting to kill the engine process
+2021-11-21 21:15:05,172 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [360]: Killing engine process
+2021-11-21 21:15:05,181 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._terminate [363]: Engine process is killed. Received return code 1
+2021-11-21 21:15:05,250 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [421]: file:///C:/Program Files/Ultimaker Cura 4.12.1/resources/qml/PrintSetupSelector/Custom/QualitiesWithIntentMenu.qml:168:25: QML Binding: Not restoring previous value because restoreMode has not been set.
+This behavior is deprecated.
+You have to import QtQml 2.15 after any QtQuick imports and set
+the restoreMode of the binding to fix this warning.
+In Qt < 6.0 the default is Binding.RestoreBinding.
+In Qt >= 6.0 the default is Binding.RestoreBindingOrValue.
+
+2021-11-21 21:15:05,273 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [421]: file:///C:/Program Files/Ultimaker Cura 4.12.1/qml/UM/Preferences/PreferencesDialog.qml:113: TypeError: Cannot read property 'resetEnabled' of null
